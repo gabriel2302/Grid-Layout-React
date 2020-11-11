@@ -15,11 +15,15 @@ export const Container = styled.div<ContainerProps>`
   }
 
   h2 {
-    font-size: 1.7rem;
+    font-size: 4rem;
+    font-style: italic;
+    line-height: 1;
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    color: ${theme.colors.primary};
+    text-transform: uppercase;
   }
 
   h4 {
