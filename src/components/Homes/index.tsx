@@ -122,7 +122,7 @@ const Homes: React.FC = () => {
       </Homecard>
 
       <Homecard>
-        <img src={img1} alt="Casa 1"/>
+        <img src={img5} alt="Casa 5"/>
         <BiHeart />
         <h5>Beautiful Family House</h5>
         <HomeInfo style={{marginTop: '2.5rem'}}>
@@ -148,10 +148,9 @@ const Homes: React.FC = () => {
       </Homecard>
 
       <Homecard>
-        <img src={img1} alt="Casa 1"/>
+        <img src={img6} alt="Casa 6"/>
         <BiHeart />
         <h5>Beautiful Family House</h5>
-
         <HomeInfo style={{marginTop: '2.5rem'}}>
           <BiMap/>
           <p>USA</p>

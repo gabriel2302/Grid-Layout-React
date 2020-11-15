@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Navbutton } from './styles';
 
 const Sidebar: React.FC = () => {
   return (
     <Container>
-      Sidebar
+      <Navbutton />
     </Container>
   );
 };
