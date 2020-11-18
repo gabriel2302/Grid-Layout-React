@@ -11,6 +11,10 @@ export const Container = styled.section`
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 6rem;
   align-items: start;
+
+  @media only screen and (max-width: ${theme.breakpoints.bpSmall}) {
+    margin: 8rem 0;
+  }
 `;
 
 export const Feature = styled.div`

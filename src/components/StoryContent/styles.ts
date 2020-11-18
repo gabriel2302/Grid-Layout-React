@@ -12,6 +12,12 @@ export const Container = styled.div`
   justify-content: center;
   align-items: flex-start;
 
+  @media only screen and (max-width: ${theme.breakpoints.bpMedium}) {
+    grid-column: 1 / -1;
+    grid-row: 5 / 6;
+  }
+
+
   /* display: grid;
   align-content: center;
   justify-items: start; */

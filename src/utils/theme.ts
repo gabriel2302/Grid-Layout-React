@@ -14,5 +14,12 @@ export default {
     fontPrimary: `'Nunito', sans-serif`,
     fontDisplay: `'Josefin Sans', sans-serif`,
     fontRoboto: `'Roboto slab', sans-serif`
+  },
+
+  breakpoints: {
+    bpLargest: '75em',   // 1200px/16 = 75em
+    bpLarge: '62.5em',  // 1000px/16 =  62.5em
+    bpMedium: '50em',  // 800px/ 16 =   50em
+    bpSmall: '37.5em',     //  600px/16 =    37.5em
   }
 }

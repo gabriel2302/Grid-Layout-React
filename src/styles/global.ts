@@ -2,7 +2,6 @@ import {createGlobalStyle} from 'styled-components';
 import theme from '../utils/theme';
 
 export default createGlobalStyle`
-
 *,
 *::before,
 *::after {
@@ -14,6 +13,10 @@ export default createGlobalStyle`
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1 rem = 10px
+
+  @media only screen and (max-width: ${theme.breakpoints.bpLargest}) {
+    font-size: 50%; // 8px
+  }
 }
 
 body {

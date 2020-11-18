@@ -8,6 +8,10 @@ export const Container = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 7rem;
+
+  @media only screen and (max-width: ${theme.breakpoints.bpSmall}) {
+    margin: 8rem 0;
+  }
 `;
 
 export const Homecard = styled.div`
@@ -16,8 +20,7 @@ export const Homecard = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr); 
   grid-row-gap: 3.5rem;
-
-
+ 
   img {
     width: 100%;
     grid-column: 1 / -1;

@@ -12,6 +12,10 @@ export const Container = styled.div`
   justify-items: center;
   align-content: center;
 
+  @media only screen and (max-width: ${theme.breakpoints.bpMedium}) {
+    grid-column: 1 / -1;
+  }
+
   img {
     width: 7rem;
     border-radius: 50%;
@@ -25,6 +29,14 @@ export const RealtorsList = styled.div`
   grid-column-gap: 2rem;
   grid-row-gap: 5vh;
   align-items: center;
+
+  @media only screen and (max-width: ${theme.breakpoints.bpMedium}) {
+    grid-template-columns: repeat(3, min-content max-content);
+  }
+
+  @media only screen and (max-width: ${theme.breakpoints.bpSmall}) {
+    grid-template-columns: min-content max-content;
+  }
 `;
 
 export const RealtorDetails = styled.div`
