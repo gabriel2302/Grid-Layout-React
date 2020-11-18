@@ -11,7 +11,9 @@ export const Container = styled.div<ContainerProps>`
   color: ${props => props.light ? theme.colors.greyLight1 : theme.colors.greyDark1};
 
   h1 {
-    font-size: 1.9rem;
+    font-size: 4.5rem;
+    color: ${theme.colors.greyLight1};
+    line-height: 1;
   }
 
   h2 {
